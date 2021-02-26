@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(72, 85, 91, 1);
+  width: 940px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1,
+p,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  letter-spacing: 0.095em;
+  line-height: 1.167em;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 11px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  color: white;
+  letter-spacing: 0.336em;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+/******************************************* header */
+header {
+  height: 100vh;
+  background: url("../img/bg-header.jpg") center / 100% auto no-repeat;
+  box-sizing: border-box;
+  padding: 41px 0 71px 0;
+}
+
+.header__logo {
+  width: 102px;
+}
+
+.header__title {
+  width: 581px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -291px;
+  color: white;
+  font-size: 16px;
+}
+
+.title__scroll {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -57px;
+}
+/* header */
+
+/******************************************* navbar */
+.navbar {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 24px 0 23px 0;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  width: 80px;
+}
+
+.navbar__link {
+  color: rgba(72, 85, 91, 1);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.099em;
+}
+
+.navbar__link:hover {
+  color: rgba(0, 164, 229, 1);
+}
+
+.navbar__menu {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  grid-column-gap: 25px;
+}
+
+/* navbar */
+
+/******************************************* about */
+
+/* about */
+
+/******************************************* services */
+
+/* services */
+
+/******************************************* get-in-touch */
+
+/* get-in-touch */
+
+/******************************************* newsletter */
+
+/* newsletter */
+
+/******************************************* footer */
+
+/* footer */
