@@ -235,7 +235,7 @@ header {
 /******************************************* services */
 
 .services {
-  padding: 60px 0 60px 0;
+  padding: 60px 0 115px 0;
 }
 
 .services__title::after {
@@ -263,7 +263,7 @@ header {
 }
 
 .services__card {
-  padding: 38px 22px 39px 23px;
+  padding: 38px 20px 39px 23px;
   border: 1px solid #e6e6e6;
 }
 
@@ -275,9 +275,61 @@ header {
 
 /******************************************* get-in-touch */
 
+.get-in-touch {
+  padding: 120px 0 230px 0;
+  background: url("../img/bg-get-in-touch.jpg") 0 0 / 100% auto no-repeat;
+}
+
+.get-in-touch .grid {
+  justify-items: center;
+  grid-row-gap: 35px;
+  width: 320px;
+  text-align: center;
+}
+
+.get-in-touch__title {
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 0.005em;
+}
+
 /* get-in-touch */
 
 /******************************************* newsletter */
+
+.newsletter {
+  background: rgba(23, 24, 25, 1);
+  padding: 30px 0 30px 0;
+}
+
+.newsletter .flex {
+  justify-content: space-around;
+}
+
+.newsletter__title {
+  font-size: 22px;
+  line-height: 1.362em;
+  letter-spacing: 0.039em;
+  color: white;
+}
+
+.newsletter__email {
+  font-size: 14px;
+  letter-spacing: 0.005em;
+  line-height: 1.357em;
+  padding: 11px 56px 10px 16px;
+  border: none;
+  margin-right: -5px;
+}
+
+.newsletter__bottom {
+  font-size: 13px;
+  letter-spacing: 0.038em;
+  line-height: 1.385em;
+  color: white;
+  border: none;
+  padding: 11px 49px;
+}
 
 /* newsletter */
 
