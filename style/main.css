@@ -25,7 +25,6 @@ h3 {
 h1 {
   font-size: 60px;
   color: white;
-  text-transform: uppercase;
   font-family: "Bebas Neue", cursive;
   font-weight: normal;
   letter-spacing: 0.095em;
@@ -93,22 +92,30 @@ li {
   width: fit-content;
   height: fit-content;
   padding: 11px 29px;
+  text-transform: uppercase;
 }
 
 .bottom:hover {
   background: rgba(0, 164, 229, 0.8);
 }
 
+.logo {
+  width: 102px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
 /******************************************* header */
 header {
   height: 100vh;
   background: url("../img/bg-header.jpg") center / 100% auto no-repeat;
   box-sizing: border-box;
   padding: 41px 0 71px 0;
-}
-
-.header__logo {
-  width: 102px;
 }
 
 .header__title {
@@ -148,6 +155,7 @@ header {
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.099em;
+  text-transform: uppercase;
 }
 
 .navbar__link:hover {
@@ -177,24 +185,24 @@ header {
   align-self: center;
 }
 
-.about__founded {
+.about__build {
   font-size: 20px;
   line-height: 1.362em;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.about__founded span {
+.about__build span {
   color: rgba(0, 164, 229, 1);
 }
 
-.about__text {
+.about__info {
   letter-spacing: 0.01em;
   width: 400px;
 }
 
-.about__lorem,
-.services__lorem {
+.about__text,
+.services__text-card {
   line-height: 1.769em;
   font-size: 13px;
   letter-spacing: 0.01em;
@@ -229,6 +237,7 @@ header {
   font-size: 24px;
   letter-spacing: 0.008em;
   line-height: 1.261em;
+  text-transform: uppercase;
 }
 /* about */
 
@@ -244,15 +253,13 @@ header {
 
 .services__text {
   font-size: 11px;
-}
-
-.services__bottom {
-  justify-self: end;
+  width: 375px;
 }
 
 .services__info {
-  grid-template-columns: 1fr 375px auto;
+  grid-template-columns: 1fr auto auto;
   grid-gap: 55px;
+  align-items: center;
 }
 
 .services__list {
@@ -269,6 +276,7 @@ header {
 
 .services__card h3 {
   margin: 25px 0 13px;
+  text-transform: uppercase;
 }
 
 /* services */
@@ -303,7 +311,7 @@ header {
 }
 
 .newsletter .flex {
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .newsletter__title {
@@ -320,6 +328,7 @@ header {
   padding: 11px 56px 10px 16px;
   border: none;
   margin-right: -5px;
+  outline: none;
 }
 
 .newsletter__bottom {
@@ -329,10 +338,109 @@ header {
   color: white;
   border: none;
   padding: 11px 49px;
+  outline: none;
 }
 
 /* newsletter */
 
-/******************************************* footer */
+/******************************************* connection */
+.connection {
+  background: rgba(20, 26, 32, 1);
+  padding: 42px 0 50px;
+}
 
+.connection .grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  grid-gap: 75px;
+}
+
+.connection__title {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.362em;
+  letter-spacing: 0.077em;
+  margin-bottom: 17px;
+}
+
+.connection__link {
+  font-size: 11px;
+  letter-spacing: 0.077em;
+  line-height: 2.273em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.connection__link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.connection__list {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 33px;
+}
+
+.connection__text-decoration {
+  font-size: 11px;
+  letter-spacing: 0.077em;
+}
+
+.connection__text {
+  line-height: 1.727em;
+}
+
+.connection__address {
+  line-height: 1.455em;
+}
+
+.connection__logo {
+  margin-bottom: 16px;
+}
+
+.connection__address:nth-child(3) {
+  margin: 20px 0;
+}
+
+.connection__icon {
+  width: 12px;
+}
+
+.connection__icon-link {
+  letter-spacing: 0;
+}
+
+.connection__networks {
+  justify-content: space-between;
+  padding: 30px 0 0 0;
+  width: 85px;
+}
+
+.connection__company {
+  width: 250px;
+}
+
+.connection__info {
+  width: 260px;
+}
+
+.connection__contact-us {
+  width: 118px;
+}
+
+/* connection */
+
+/******************************************* footer */
+.footer {
+  background: rgba(23, 24, 25, 1);
+  padding: 22px 0 23px 0;
+  text-align: center;
+}
+
+.footer__text {
+  color: white;
+  font-size: 11px;
+  line-height: 1.362em;
+  letter-spacing: 0.077em;
+}
 /* footer */
