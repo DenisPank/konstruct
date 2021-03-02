@@ -134,6 +134,32 @@ header {
   font-size: 11px;
   letter-spacing: 0.336em;
 }
+
+.header__hamburger {
+  display: none;
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 10px;
+  border-bottom: 2px solid #9a8d8d;
+  border-top: 2px solid #9a8d8d;
+  top: 10%;
+  right: 10%;
+  cursor: pointer;
+}
+
+.header__hamburger::after {
+  display: block;
+  content: " ";
+  width: 20px;
+  background: #9a8d8d;
+  height: 2px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+}
+
 /* header */
 
 /******************************************* navbar */

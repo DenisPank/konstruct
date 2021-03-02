@@ -7,6 +7,10 @@
     display: none;
   }
 
+  .header__hamburger {
+    display: block;
+  }
+
   .about__item {
     text-align: center;
   }
