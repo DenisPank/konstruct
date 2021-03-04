@@ -15,8 +15,12 @@
     right: 14%;
     grid-template-columns: auto;
     grid-row-gap: 30px;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgb(54 70 86);
     padding: 33px;
+  }
+
+  .show a {
+    color: white;
   }
 
   .header__hamburger {
