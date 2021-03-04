@@ -1,3 +1,5 @@
+// Плавная Прокрутка
+
 $(".scrollto").on("click", function () {
   let href = $(this).attr("href");
 
@@ -12,4 +14,11 @@ $(".scrollto").on("click", function () {
   );
 
   return false;
+});
+
+// Гамбургер
+
+$(".header__hamburger").click(function (e) {
+  e.preventDefault();
+  $("header ul.navbar__menu").toggleClass("show");
 });
