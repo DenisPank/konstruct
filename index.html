@@ -5,21 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Konstruct</title>
-    <link rel="stylesheet" href="style/main.css" />
-    <link rel="stylesheet" href="style/media.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/media.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="container center">
         <img
           src="img/company-logo-white.png"
@@ -39,19 +38,19 @@
       <a href="#" class="header__hamburger"></a>
       <ul class="navbar__menu grid display-none">
         <li class="navbar__item">
-          <a href="header" class="navbar__link scrollto">home</a>
+          <a href="#header" class="navbar__link scrollto">home</a>
         </li>
         <li class="navbar__item">
           <a href="#about" class="navbar__link scrollto">about</a>
         </li>
         <li class="navbar__item">
-          <a href=".services" class="navbar__link scrollto">services</a>
+          <a href="#services" class="navbar__link scrollto">services</a>
         </li>
         <li class="navbar__item">
-          <a href=".get-in-touch" class="navbar__link scrollto">work</a>
+          <a href="#get-in-touch" class="navbar__link scrollto">work</a>
         </li>
         <li class="navbar__item">
-          <a href=".connection" class="navbar__link scrollto">contact</a>
+          <a href="#connection" class="navbar__link scrollto">contact</a>
         </li>
       </ul>
     </header>
@@ -97,18 +96,21 @@
           <div class="about__we grid">
             <div class="about__img">
               <p>we plan</p>
+              <img src="img/img-plan.jpg" alt="#" />
             </div>
             <div class="about__img">
               <p>we manage</p>
+              <img src="img/img-manage.jpg" alt="#" />
             </div>
             <div class="about__img">
               <p>we build</p>
+              <img src="img/img-build.jpg" alt="#" />
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <div class="services__info grid">
           <h2 class="services__title border uppercase">our capabilities</h2>
@@ -149,7 +151,7 @@
         </ul>
       </div>
     </section>
-    <section class="get-in-touch">
+    <section class="get-in-touch" id="get-in-touch">
       <div class="container grid">
         <h2 class="get-in-touch__title">Want to build something amazing?</h2>
         <a href="#" class="get-in-touch__bottom bottom"> get in touch </a>
@@ -172,7 +174,7 @@
         </form>
       </div>
     </section>
-    <section class="connection">
+    <section class="connection" id="connection">
       <div class="container grid">
         <div class="connection__company">
           <h3 class="connection__title uppercase">company</h3>
@@ -233,7 +235,7 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <p class="footer__text">
           © 2017 Konstruct Inc. Designed by Jane Kathryn Teo
@@ -241,7 +243,7 @@
       </div>
     </footer>
     <!-- JavaScript Plugin -->
-    <script src="JScript/script.js"></script>
-    <script src="JScript/mainScript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -233,20 +233,9 @@ header {
   letter-spacing: 0.01em;
 }
 
-.about__img:nth-child(1) {
-  background: url("../img/img-plan.jpg") 50% 100% / auto auto no-repeat;
-}
-
-.about__img:nth-child(2) {
-  background: url("../img/img-manage.jpg") 50% 100% / auto auto no-repeat;
-}
-
-.about__img:nth-child(3) {
-  background: url("../img/img-build.jpg") 50% 100% / auto auto no-repeat;
-}
-
 .about__img {
-  padding: 15px;
+  display: flex;
+  position: relative;
 }
 
 .about__we {
@@ -254,6 +243,11 @@ header {
   height: 225px;
   margin-top: 30px;
   grid-gap: 20px;
+}
+
+.about__img img {
+  object-fit: cover;
+  object-position: center;
 }
 
 .about__img p {
@@ -264,6 +258,9 @@ header {
   letter-spacing: 0.008em;
   line-height: 1.261em;
   text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 /* about */
 
