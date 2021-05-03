@@ -127,6 +127,10 @@
     width: 375px;
   }
 
+  .newsletter__form {
+    display: block;
+  }
+
   .about__info {
     width: 100%;
   }

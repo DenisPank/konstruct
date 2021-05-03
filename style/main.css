@@ -363,6 +363,10 @@ header {
   outline: none;
 }
 
+.newsletter__form {
+  display: flex;
+}
+
 /* newsletter */
 
 /******************************************* connection */
